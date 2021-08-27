@@ -1,0 +1,14 @@
+language: csharp
+mono: none
+os: linux
+dotnet: 5.0
+script:
+    - dotnet build ./Dotnet.Notebook.EnvMagicCommand -c Release
+    - dotnet pack ./Dotnet.Notebook.EnvMagicCommand -c Release
+deploy:
+    - provider: script
+      skip_cleanup: true
+      script: dotnet nuget push Dotnet.Notebook.EnvMagicCommand/Dotnet.Notebook.EnvMagicCommand/bin/Release/Dotnet.Notebook.EnvMagicCommand.*.nupkg --api-key $NUGET_API_KEY --source nuget.org
+      on:
+          tags: true
+          branch: main
