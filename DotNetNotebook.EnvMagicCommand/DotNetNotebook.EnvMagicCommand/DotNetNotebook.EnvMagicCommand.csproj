@@ -6,13 +6,10 @@
         <IncludeBuildOutput>true</IncludeBuildOutput>
         <IsPackable>true</IsPackable>
         <Authors>Poy Chang</Authors>
-        <PackageProjectUrl>https://github.com/poychang/dotnet-notebook-LoadEnvFileExtension</PackageProjectUrl>
-        <Product>LoadEnvFileExtension</Product>
-        <PackageDescription>Load .env file in .NET Interactive Notebook</PackageDescription>
         <Version>1.1.0</Version>
+        <PackageDescription>Load .env file in .NET Interactive Notebook</PackageDescription>
+        <PackageProjectUrl>https://github.com/poychang/DotNetNotebook.EnvMagicCommand</PackageProjectUrl>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
 
     <ItemGroup>
