@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.com/poychang/Dotnet.Notebook.EnvMagicCommand.svg?branch=main)](https://travis-ci.com/poychang/Dotnet.Notebook.EnvMagicCommand)
-[![NuGet version](https://badge.fury.io/nu/Dotnet.Notebook.EnvMagicCommand.svg)](https://badge.fury.io/nu/Dotnet.Notebook.EnvMagicCommand)
+[![Build Status](https://app.travis-ci.com/poychang/DotNetNotebook.EnvMagicCommand.svg?branch=main)](https://app.travis-ci.com/github/poychang/DotNetNotebook.EnvMagicCommand)
+[![NuGet version](https://badge.fury.io/nu/DotNetNotebook.EnvMagicCommand.svg)](https://badge.fury.io/nu/DotNetNotebook.EnvMagicCommand)
 
-# LoadEnvFileExtension
+# Env Magic Command
 
 Load .env file in .NET Interactive Notebook. This package helps .NET Notebook player custom their environment easier.
 

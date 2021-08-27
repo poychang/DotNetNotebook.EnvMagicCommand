@@ -29,7 +29,7 @@
 
 
     <ItemGroup>
-        <None Include="$(OutputPath)/Dotnet.Notebook.EnvMagicCommand.dll" Pack="true" PackagePath="interactive-extensions/dotnet" />
+        <None Include="$(OutputPath)/DotNetNotebook.EnvMagicCommand.dll" Pack="true" PackagePath="interactive-extensions/dotnet" />
     </ItemGroup>
 
 </Project>
